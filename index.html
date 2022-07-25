@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/output.css" />
+    <title>SxFilm</title>
+  </head>
+  <body class="font-Fira">
+    <!-- Navigasi bar -->
+    <header class="border-b-4 border-blue-400 pb-4">
+      <div
+        class="container mx-auto h-16 w-full pt-2 text-center font-NSW text-5xl font-bold text-slate-700"
+      >
+        Sx<span class="text-blue-400">Film</span>
+      </div>
+      <div
+        class="container mx-auto flex h-auto max-w-xs border-slate-700 font-Fira font-semibold text-slate-700"
+      >
+        <span
+          class="flex-1 cursor-pointer rounded-lg text-center transition duration-500 ease-in-out hover:border-blue-400 hover:bg-blue-400 hover:text-white"
+          >Populer</span
+        >
+        <span
+          class="flex-1 cursor-pointer rounded-lg text-center transition duration-500 ease-in-out hover:border-blue-400 hover:bg-blue-400 hover:text-white"
+          >Box Office</span
+        >
+        <span
+          class="flex-1 cursor-pointer rounded-lg text-center transition duration-500 ease-in-out hover:border-blue-400 hover:bg-blue-400 hover:text-white"
+          >TV-Series</span
+        >
+      </div>
+      <div class="container m-4 mx-auto flex max-w-xs justify-center">
+        <form>
+          <input
+            type="text"
+            id="search"
+            name="search "
+            class="flex-2 mx-auto rounded-md border-2 border-blue-400 p-1 pr-8 pl-2 text-xs"
+            placeholder="Search Film..."
+          />
+          <button
+            type="submit"
+            class="ml-2 flex-1 rounded-lg bg-blue-400 p-1 px-4 text-sm font-semibold text-white transition duration-300 ease-in-out hover:bg-blue-300"
+          >
+            Search
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <!-- Content -->
+    <section class="my-2 mx-2">
+      <h1 class="container bg-slate-600 px-2 font-semibold text-white">Baru</h1>
+      <div class="container mt-2 ml-2 mr-4 max-w-sm">
+        <a href="#" class="block text-xl font-bold text-slate-700"
+          >Minion: The Rise Of Gru</a
+        >
+        <img
+          src="./src/asset/img/RiseOfGru.jpg"
+          alt="RiseOfGru"
+          width="100"
+          class="float-left mr-2 rounded-lg border shadow-lg"
+        />
+        <p class="pr-2 text-base text-slate-600">
+          Jauh sebelum menjadi penguasa kejahatan, Gru (Steve Carell) hanyalah
+          seorang bocak lelaki berusia 12 tahun di pinggiran kota pada 1970-an.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
